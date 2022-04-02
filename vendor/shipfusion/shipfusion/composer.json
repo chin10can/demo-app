@@ -1,0 +1,16 @@
+{
+    "name": "shipfusion/shipfusion",
+    "description": "This package is only for testing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shipfusion\\": "src/"
+        },
+        "files": [
+            "src/Shipfusion.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
