@@ -10,7 +10,8 @@
         "illuminate/database": "^9.6",
         "illuminate/pagination": "^9.6",
         "league/event": "^3.0",
-        "shipfusion/shipfusion": "dev-main"
+        "shipfusion/shipfusion": "dev-main",
+        "justinrainbow/json-schema": "^5.2"
     },
     "autoload": {
 		"psr-4": {

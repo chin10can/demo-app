@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2
+class ComposerStaticInitcdc0444e4b7dd12e2d3d9b598fbc644e
 {
     public static $files = array (
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -100,6 +100,10 @@ class ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2
         array (
             'League\\Event\\' => 13,
             'Laminas\\Diactoros\\' => 18,
+        ),
+        'J' => 
+        array (
+            'JsonSchema\\' => 11,
         ),
         'I' => 
         array (
@@ -268,6 +272,10 @@ class ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2
         'Laminas\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
+        ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
         'Invoker\\' => 
         array (
@@ -973,9 +981,9 @@ class ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2636fd4332be3bd70144bb69dd3244a2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitcdc0444e4b7dd12e2d3d9b598fbc644e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitcdc0444e4b7dd12e2d3d9b598fbc644e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitcdc0444e4b7dd12e2d3d9b598fbc644e::$classMap;
 
         }, null, ClassLoader::class);
     }

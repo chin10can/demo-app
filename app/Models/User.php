@@ -25,7 +25,7 @@ class User extends Model{
      */
     public function getCreatedAtAttribute():string
     {
-         return date('s, F Y', strtotime($this->attributes['created_at']));
+         return date('d, F Y', strtotime($this->attributes['created_at']));
     }
     /**
      * @return HasMany
