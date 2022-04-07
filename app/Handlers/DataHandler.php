@@ -48,7 +48,7 @@ class DataHandler
                     'maxLength' => 255
                 ],
             ],
-            'required' => ['name', 'email', 'password', 'phone', 'address', 'city']
+            'required' => ['name', 'email', 'password', 'phone', 'address1','address2', 'city']
         ];
         //sample response data from sales channel
         $responsedata = [
